@@ -93,9 +93,9 @@ You can easily customize the application by modifying:
 - **Additional features**: Add more TextBlob functionality like sentiment analysis
   ## 🙏 Acknowledgments
 
-TextBlob: For providing excellent NLP capabilities
-Python Tkinter: For the GUI framework
-NLTK: Underlying natural language toolkit used by TextBlob
+- **TextBlob**: For providing excellent NLP capabilities
+- **Python Tkinter**: For the GUI framework
+- **NLTK**: Underlying natural language toolkit used by TextBlob
 
 
 
