@@ -2,7 +2,7 @@
 ## 👨‍💻 Developer Information
 - **Name**:O.Himavardhini
 - **Roll No**:222T1A3140
-- **Institution**:Ashoka Womens College
+- **Institution**:Ashoka Womens  Engineering College
   
 # Spell Checker Tool - AI NLP Project
 A simple yet effective spell checking application built with Python using Tkinter for the GUI and TextBlob for natural language processing capabilities.
