@@ -1,48 +1,97 @@
 
-# 🧠 Spell Checker - AI NLP Project
+- **👨‍💻 Developer Information**
+- **Name**:O.Himavardhini
+- **Roll No**:222T1A3140
+- **Institution**:Ashoka Womens College
+  
+# Spell Checker Tool - AI NLP Project
+A simple yet effective spell checking application built with Python using Tkinter for the GUI and TextBlob for natural language processing capabilities.
 
-This is a simple **AI-powered Spell Checker** built using **Python**, **Tkinter** (for GUI), and **TextBlob** (for NLP). It takes a single word as input and automatically corrects any spelling mistakes using natural language processing techniques.
+## 🌟 Features
 
----
+- **User-friendly GUI**: Clean and intuitive interface built with Tkinter
+- **Real-time spell checking**: Instant correction suggestions using TextBlob's NLP capabilities
+- **Error handling**: Validates user input and provides appropriate feedback
+- **Lightweight**: Minimal dependencies and fast performance
+- **Cross-platform**: Works on Windows, macOS, and Linux
 
-## 📌 Description
+## 🖼️ Screenshot
 
-The application provides a graphical user interface where users can:
-- Enter any English word
-- Click a button to check for spelling errors
-- Instantly see the corrected word (if any)
+The application features a light pink background with a clean layout including:
+- Title header with navy blue text on light blue background
+- Input field for entering words
+- Result display area showing corrections
+- Check Spelling and Exit buttons
 
-It's a beginner-friendly project that combines **GUI development** and **natural language processing**, making it ideal for students or those starting out with AI/NLP concepts.
+## 🚀 Getting Started
 
----
+### Prerequisites
 
-## ✨ Features
+Make sure you have Python installed on your system. This project requires:
 
-- ✅ Simple and intuitive GUI using Tkinter
-- ✅ Real-time spell checking with TextBlob
-- ✅ Error handling for empty input
-- ✅ Clean design with color styling
-- ✅ Easy to extend for sentences or grammar checking
+- Python 3.6 or higher
+- tkinter (usually comes pre-installed with Python)
+- textblob library
 
----
+## 💻 How to Use
 
-## 🛠️ Technologies Used
+1. **Launch the application** by running the Python script
+2. **Enter a word** in the input field (can include misspelled words)
+3. **Click "Check Spelling"** to get the corrected version
+4. **View the result** in the display area below
+5. **Click "Exit"** to close the application
 
-| Technology | Purpose                    |
-|------------|-----------------------------|
-| Python     | Programming language        |
-| Tkinter    | GUI toolkit                 |
-| TextBlob   | NLP library for spell check |
+### Example Usage
 
----
+- Input: `recieve` → Output: `The corrected word is: receive`
+- Input: `occured` → Output: `The corrected word is: occurred`
+- Input: `separate` → Output: `The corrected word is: separate` (already correct)
 
-## 📦 Requirements
+## 🏗️ Code Structure
 
-Make sure you have the following installed:
+```
+spell-checker-tool/
+│
+├── spell_checker.py          # Main application file
+├── README.md                 # Project documentation
+└── requirements.txt          # Dependencies list
+```
 
-```bash
-python --version      # Python 3.x
-pip install textblob
-python -m textblob.download_corpora
-![App Screenshot](screenshot.png)
+### Key Components
+
+- **GUI Framework**: Tkinter for creating the user interface
+- **NLP Engine**: TextBlob for spell checking and text correction
+- **Event Handling**: Button clicks and input validation
+- **Styling**: Custom colors and fonts for better user experience
+
+## 🛠️ Technical Details
+
+### Dependencies
+
+- **tkinter**: Python's standard GUI toolkit
+- **textblob**: Natural language processing library for spell checking
+
+### Core Functions
+
+- `checkSpelling()`: Main function that processes input and returns corrections
+- Input validation to handle empty strings
+- Error handling for edge cases
+
+### GUI Elements
+
+- **StringVar()**: For managing input and output text
+- **Labels**: For titles, prompts, and result display
+- **Entry**: For user input
+- **Buttons**: For triggering spell check and exiting
+
+## 🎨 Customization
+
+You can easily customize the application by modifying:
+
+- **Colors**: Change `bg` and `fg` parameters in the code
+- **Fonts**: Modify font families and sizes
+- **Window size**: Adjust the `geometry()` parameters
+- **Additional features**: Add more TextBlob functionality like sentiment analysis
+
+
 
