@@ -44,3 +44,5 @@ Make sure you have the following installed:
 python --version      # Python 3.x
 pip install textblob
 python -m textblob.download_corpora
+![App Screenshot](screenshot.png)
+
